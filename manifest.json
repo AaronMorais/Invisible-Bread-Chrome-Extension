@@ -2,11 +2,10 @@
   "name": "Invisible Bread - Hidden Panel Hover",
   "description": "Hover over the hidden panel link on an Invisible Bread comic to see the hidden panel!",
   "manifest_version": 2,
-  "version": "0.1",
+  "version": "1.0",
   "content_scripts": [ 
     {
       "matches": ["*://invisiblebread.com/*"],
-      "css": ["pretty.css"],
       "js": ["jquery.js", "hover.js"]
     }
   ]
