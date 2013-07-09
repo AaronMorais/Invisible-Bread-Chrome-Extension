@@ -1,6 +1,4 @@
 $(document).ready(function() {
-    console.log("HELLO WORLD!!!!");
-
     //get the bonus link for the bonus panel
     var href = $("#extrapanelbutton > a").attr("href");
     var hrefSplitArray = href.split("/");
