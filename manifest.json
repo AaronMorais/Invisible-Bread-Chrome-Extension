@@ -2,7 +2,7 @@
   "name": "Invisible Bread - Bonus Panel Hover",
   "description": "Hover over the bonus panel link on an Invisible Bread comic to see the bonus panel!",
   "manifest_version": 2,
-  "version": "1.0",
+  "version": "1.0.1",
   "content_scripts": [ 
     {
       "matches": ["*://invisiblebread.com/*"],
